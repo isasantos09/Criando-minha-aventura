@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Floresta Encantada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você é um aventureiro que entra na Floresta Encantada em busca de um tesouro lendário. Dizem que muitos já tentaram encontrar o tesouro, mas poucos voltaram.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o caminho da direita, que é mais iluminado.</button>
+            <button class="btn-proximo" data-proximo="2">Seguir o caminho da esquerda, que está escuro e coberto de névoa.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você encontra uma clareira com uma pequena cabana. Há um ancião sentado na frente dela.</p>
+            <button class="btn-proximo" data-proximo="3">Falar com o ancião.</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar o ancião e continuar caminhando.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você ouve um rugido alto vindo de dentro da névoa. Um monstro aparece.</p>
+            <button class="btn-proximo" data-proximo="5">Lutar contra o monstro.</button>
+            <button class="btn-proximo" data-proximo="6">Correr de volta para a entrada da floresta.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O ancião te avisa sobre uma armadilha à frente e oferece uma poção mágica.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a poção.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você é pego por uma armadilha mágica e fica preso em um laço temporal, repetindo o mesmo caminho infinitamente.</p>
+            <img src="https://1drv.ms/i/s!AvijZ3CNXStEixI9j3SwWyLp9qsB?e=0s4rXp" alt="Fim de Jogo">
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você derrota o monstro e encontra uma passagem secreta para uma caverna.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você volta em segurança para a entrada da floresta. Decide que o tesouro não vale o risco.</p>
+            <button class="btn-proximo" data-proximo="8">FIM DE JOGO</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>A caverna leva a uma sala com um baú de tesouro guardado por um dragão adormecido.</p>
+            <button class="btn-proximo" data-proximo="9">Tentar pegar o tesouro sem acordar o dragão.</button>
+            <button class="btn-proximo" data-proximo="10">Acordar o dragão e lutar.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="https://1drv.ms/i/s!AvijZ3CNXStEixXExCSH7Y026wo_?e=yGEQvd" alt="Fim de Jogo">
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você pega o tesouro com sucesso e escapa sem acordar o dragão. Fim do Jogo com Vitória.</p>
+            <img src="https://1drv.ms/u/s!AvijZ3CNXStEixPoa1dCeBhrsVwK?e=yGgYDh" alt="Parabéns, você ganhou!">
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você é derrotado pelo dragão e perde tudo. Fim do Jogo.</p>
+            <img src="https://1drv.ms/u/s!AvijZ3CNXStEixRNhDRub-B2kcvb?e=sW32yg" alt="Você morreu">
+        </div>
+        <div class="passo" id="passo-11">
+            <p>A poção te concede visão mágica. Você consegue evitar a armadilha e encontra uma passagem secreta para uma caverna</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna.</button>
+        </div>
+
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
